@@ -26,3 +26,15 @@ linter:
 
 # Additional information about this file can be found at
 # https://dart.dev/guides/language/analysis-options
+
+# Exclude generated and platform folders from analysis to reduce noise in the
+# Problems panel. Adjust or remove entries if you need those folders analyzed.
+analyzer:
+  exclude:
+    - build/**
+    - .dart_tool/**
+    - ios/**
+    - android/**
+    - windows/**
+    - macos/**
+    - linux/**
