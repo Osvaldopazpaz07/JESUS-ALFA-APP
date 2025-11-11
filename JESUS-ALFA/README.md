@@ -1,5 +1,7 @@
 # jesus_calculator_sin_ia
 
+![Flutter CI](https://github.com/Osvaldopazpaz07/JESUS-ALFA-APP/actions/workflows/flutter-ci.yml/badge.svg)
+
 A new Flutter project.
 
 ## Getting Started
