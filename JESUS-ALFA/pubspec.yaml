@@ -1,0 +1,33 @@
+name: jesus_calculator_ct
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.3.1
+  math_expressions: ^2.7.0
+  shared_preferences: ^2.5.3
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  # PASO 1: AÑADIMOS LA HERRAMIENTA PARA CREAR ICONOS
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+# PASO 2: AÑADIMOS LA CONFIGURACIÓN DEL ICONO AL FINAL
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png" # Le decimos dónde está tu imagen
+  min_sdk_android: 21
+
